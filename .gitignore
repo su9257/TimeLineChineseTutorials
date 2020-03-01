@@ -1,0 +1,8 @@
+Library/
+.vs/
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Temp/
+TimeLineChineseTutorials.sln
+TimeLineTutorials.sln
+Logs/Packages-Update.log
