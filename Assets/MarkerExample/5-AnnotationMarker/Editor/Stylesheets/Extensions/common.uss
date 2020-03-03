@@ -1,0 +1,6 @@
+﻿AnnotationMarker
+{
+    width:20px;
+    height:20px;
+    background-image: resource("Assets/MarkerExample/5-AnnotationMarker/Editor/pencil.png");
+}
