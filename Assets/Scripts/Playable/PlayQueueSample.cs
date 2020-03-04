@@ -20,7 +20,9 @@ public class PlayQueueSample : MonoBehaviour
         var playableOutput = AnimationPlayableOutput.Create(playableGraph, "Animation", GetComponent<Animator>());
         // 连接playable和output
         playableOutput.SetSourcePlayable(playQueuePlayable);
-
+        //Debug.Log($"GetPlayableCount:{playQueuePlayable.GetGraph().GetPlayableCount()}");
+        //Debug.Log($"GetRootPlayable:{playQueuePlayable.GetGraph().GetRootPlayable(0).GetInput(0).GetInputCount()}");
+        //Debug.Log($"GetRootPlayableCount:{playQueuePlayable.GetGraph().GetRootPlayableCount()}");
         // 播放graph
         playableGraph.Play();
     }

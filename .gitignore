@@ -7,3 +7,6 @@ TimeLineChineseTutorials.sln
 TimeLineTutorials.sln
 Logs/Packages-Update.log
 obj/
+Sirenix.OdinInspector.CompatibilityLayer.csproj
+Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+Assets/Plugins/Sirenix/
